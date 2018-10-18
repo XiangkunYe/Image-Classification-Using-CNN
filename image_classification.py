@@ -4,7 +4,6 @@ import os
 import matplotlib.pyplot as plt
 import tensorflow as tf
 from random import shuffle
-from tqdm import tqdm
 from keras.models import Sequential
 from keras.layers import *
 from keras.optimizers import *
@@ -96,7 +95,7 @@ def convmodel(training_image, training_label, validation_data, validation_label)
     model.add(Dropout(rate = 0.5))
     model.add(Dense(classes, activation = 'softmax'))
 
-    optimizer = Adam(lr = 4e-4)
+    optimizer = Adam(lr = 5e-4)
     model.compile(optimizer = optimizer, loss = 'categorical_crossentropy', metrics = ['accuracy'])
     # Please change save_model_path into your own directory
     save_model_path = '/Users/yxk/Documents/Python/601/Miniproject2/best_model.hdf5'
