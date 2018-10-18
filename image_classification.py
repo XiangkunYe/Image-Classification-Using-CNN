@@ -101,7 +101,7 @@ def convmodel(training_image, training_label, validation_data, validation_label)
     # Please change save_model_path into your own directory
     save_model_path = '/Users/yxk/Documents/Python/601/Miniproject2/best_model.hdf5'
     # Save the best model into save_model_path during each epoch
-    cp = tf.keras.callbacks.ModelCheckpoint(filepath=save_model_path, save_best_only=True, verbose=1)
+    cp = tf.keras.callbacks.ModelCheckpoint(filepath=save_model_path, monitor = 'val_acc', save_best_only=True, verbose=1)
     # start training this model
     model.fit(x = training_image, y = training_label, epochs = 20, batch_size = 64, validation_data = (validation_data, validation_label), callbacks = [cp])
     model.summary()
