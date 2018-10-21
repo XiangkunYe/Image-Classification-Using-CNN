@@ -1,6 +1,6 @@
 # EC601_Deep-Learning
 
-Hello! Here's ***Xiangkun Ye*** again, and the ***image_claffication.py*** is for ***miniproject2***
+Hello! Here's Xiangkun Ye again, and the ***image_claffication.py*** is for ***miniproject2***
 for ***EC601***.
 
 ## Befor start
