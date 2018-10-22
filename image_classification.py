@@ -13,19 +13,6 @@ train_data = '/Users/yxk/Documents/Python/601/Miniproject2/Train'
 test_data = '/Users/yxk/Documents/Python/601/Miniproject2/Test'
 validation_data = '/Users/yxk/Documents/Python/601/Miniproject2/Validation'
 
-def rename(dir_path, labelname):
-    '''
-    Actually we don't necessarily need this function,
-    but I decide to keep it since it costed me some time to build
-    '''
-    filelist = os.listdir(dir_path)
-    for cnt in range(len(filelist)):
-
-        picnum = "%04d" % cnt
-        oldname = dir_path + '/' + filelist[cnt] # set the old file name
-        newname = dir_path + '/' + labelname + '.' + picnum + '.jpg' # set the new file name
-        os.rename(oldname, newname) # rename the file
-
 def one_hot(labellist, label):
     '''
     make label into one hot representation according to the order in labellist
