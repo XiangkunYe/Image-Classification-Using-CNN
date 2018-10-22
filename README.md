@@ -22,7 +22,7 @@ You can run it directly after preparing those datasets, and it will automaticall
 ***3 lays convolutional neural network*** and a ***5 lays convolutional neural network*** and solve the best model as ***best_model3/5.hdf5***. After finishing, you could either choose some
 test images and show the prediction results using ***test_plot*** or plot the Training and validation loss and Training and validation accuracy's trend into line chart using ***evaluate_plot*** or both.
 ### 2. Use as API
-It can also be used as API. There're several functions: ***rename, one_hot, getlabel, flatten, convmodel3, convmodel5, test_plot and evaluate_plot***, most of them will have a introduction in the beginning, you can also use ***main***
+It can also be used as API. There're several functions: ***one_hot, getlabel, flatten, convmodel3, convmodel5, test_plot and evaluate_plot***, most of them will have a introduction in the beginning, you can also use ***main***
 as API's example code.
 
 ## Comparison
