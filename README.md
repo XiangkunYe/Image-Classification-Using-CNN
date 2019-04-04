@@ -1,8 +1,5 @@
 # EC601_Deep-Learning
 
-Hello! Here's Xiangkun Ye again, and the ***image_claffication.py*** is for ***miniproject2***
-for ***EC601***.
-
 ## Befor start
 * Please make sure to install ***tensorflow***, ***keras***, ***cv2***, ***numpy*** and ***matploblib***.  
 * Please change those directories in the head of ***image_classification*** in it into your own path.
