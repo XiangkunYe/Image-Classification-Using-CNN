@@ -41,5 +41,3 @@ I choosed to add an early stop and set the patience as 10 (since we only run 50 
 After optimization, the 5 lays convolutional neural network perform better and the overfitting problem is less significant even if it still occur. Also, the accuracy arises faster and higher than 3 lays convolutional neural network. The advantages of 3 lays convolutional neural network is that it learns faster and basically no overfitting and more suitable for small dataset. ***So for large dataset, we should use 5 lays convolutional neural network, and for small dataset or in order to prevent overfitting, we could use 3 lays convolutional neural network.***
 
 ### Hope you have fun with it! If you find any bugs or anything else, please tell me!
-
-https://drive.google.com/file/d/1AYxM-5QQdz_m2IBTicTAcuEgm-JhwHdq/view?usp=sharing
